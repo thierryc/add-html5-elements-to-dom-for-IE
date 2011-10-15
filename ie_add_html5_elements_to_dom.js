@@ -1,0 +1,2 @@
+var e = ("abbr,article,aside,audio,canvas,datalist,details,figcaption,figure,footer,header,hgroup,mark,menu,meter,nav,output,progress,section,time,video").split(',');
+for (var i = 0; i < e.length; i++) { document.createElement(e[i]); }
