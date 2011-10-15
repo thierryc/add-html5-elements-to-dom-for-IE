@@ -1,0 +1,32 @@
+/*!
+ * CSS AP HTML5 for IE 0.1.0
+ *
+ * Copyright 2011, Thierry Charbonnel
+ * Dual licensed under the MIT or GPL Version 2 licenses.
+ * https://github.com/thierryc
+ *
+ * Depends:
+ *  ie_add_html5_elements_to_dom.js
+ *
+ */
+
+article, aside, details, figcaption, figure, footer, header, hgroup, nav, section {
+	display: block;
+}
+
+audio, canvas, video {
+	display: inline-block;
+	*display: inline;
+	*zoom: 1;
+}
+
+audio:not([controls]) {
+	display: none;
+}
+
+[hidden] {
+	display: none;
+}
+
+
+
